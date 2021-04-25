@@ -1,0 +1,49 @@
+.card-container {
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: lightgray;
+  background-color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+.cards-header {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+}
+
+.cards {
+  min-height: fit-content;
+}
+
+.card-number {
+  margin: 0px;
+  letter-spacing: -1px;
+}
+
+.card-title {
+  margin: 0px;
+  letter-spacing: -1px;
+  color: grey;
+}
+
+@media all and (max-width: 768px) {
+  .card-container {
+    margin-bottom: 16px;;
+  }
+
+  .ring {
+    width: 40px!important;
+    margin: 0 auto!important;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .cards-header {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+} 

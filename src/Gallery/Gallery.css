@@ -1,0 +1,31 @@
+.gallery-container {
+  background-image: url('../images/granito.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  border-radius: 8px;
+}
+
+.gallery-header {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+}
+
+@media all and (max-width: 768px) {
+  .gallery-container {
+    height: 300px;
+  }
+} 
+
+@media all and (max-width: 400px) {
+  .gallery-container {
+    height: 250px;
+  }
+
+  .gallery-header {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+} 
