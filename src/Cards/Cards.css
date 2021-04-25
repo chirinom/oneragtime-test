@@ -30,8 +30,14 @@
 }
 
 @media all and (max-width: 768px) {
+  .card-number {
+    font-size: 18px;
+    margin-top: 12px;
+  }
+
   .card-container {
-    margin-bottom: 16px;;
+    margin-bottom: 16px;
+    padding: 12px;
   }
 
   .ring {
@@ -45,5 +51,4 @@
     margin-top: 30px;
     margin-bottom: 10px;
   }
-
-} 
+}
