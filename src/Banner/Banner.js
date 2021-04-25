@@ -22,9 +22,8 @@ export default function Banner() {
           onClick={() => {
             toggleAnimation()
             setShow(!show)
-          }}
-        >
-        See the animation
+          }}>
+          See the animation
         </button>}
         <div className="container card-gallery">
           {show ? <Cards/> : null}
