@@ -5,7 +5,7 @@ import VisibilitySensor from "react-visibility-sensor";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-export default function Card({title, number, path, pct}) {
+export default function Card({title, number, path, trail, pct}) {
   return (
     <div className="card-container">
       <div className="ring" style={{ width: "90px", margin:'25px auto' }}>
@@ -18,6 +18,7 @@ export default function Card({title, number, path, pct}) {
                 strokeWidth= '16'
                 styles={buildStyles({
                   pathColor: path,
+                  trailColor: trail,
                   pathTransitionDuration: 2,
                 })}
               />

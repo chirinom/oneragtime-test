@@ -7,6 +7,7 @@ const data = [
     title: 'Users',
     number: '25,000',
     path: '#9B8CBF',
+    trail: "#EBE8F2",
     pct: 60
   },
   {
@@ -14,6 +15,7 @@ const data = [
     title: 'Jobs',
     number: '11,700',
     path: '#FED67E',
+    trail: '#FFF6E2',
     pct: 75
   },
   {
@@ -21,6 +23,7 @@ const data = [
     title: 'Countries',
     number: '120',
     path: '#89D0C2',
+    trail: '#E7F6F3',
     pct: 55
   },
   {
@@ -28,6 +31,7 @@ const data = [
     title: 'Companies',
     number: '20,000',
     path: '#7FD5F4',
+    trail: '#C8EDFA',
     pct: 85
   },
 ]
@@ -45,6 +49,7 @@ export default function Cards() {
                 title={card.title}
                 path={card.path}
                 pct={card.pct}
+                trail={card.trail}
               />
             </div>
           ))
