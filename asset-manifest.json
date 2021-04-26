@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/oneragtime-test/static/css/main.711165f6.chunk.css",
+    "main.css": "/oneragtime-test/static/css/main.4af1ef22.chunk.css",
     "main.js": "/oneragtime-test/static/js/main.8fb2a128.chunk.js",
     "main.js.map": "/oneragtime-test/static/js/main.8fb2a128.chunk.js.map",
     "runtime-main.js": "/oneragtime-test/static/js/runtime-main.c534a7ea.js",
@@ -10,7 +10,7 @@
     "static/js/2.7861f72b.chunk.js.map": "/oneragtime-test/static/js/2.7861f72b.chunk.js.map",
     "index.html": "/oneragtime-test/index.html",
     "static/css/2.d4b21097.chunk.css.map": "/oneragtime-test/static/css/2.d4b21097.chunk.css.map",
-    "static/css/main.711165f6.chunk.css.map": "/oneragtime-test/static/css/main.711165f6.chunk.css.map",
+    "static/css/main.4af1ef22.chunk.css.map": "/oneragtime-test/static/css/main.4af1ef22.chunk.css.map",
     "static/js/2.7861f72b.chunk.js.LICENSE.txt": "/oneragtime-test/static/js/2.7861f72b.chunk.js.LICENSE.txt",
     "static/media/Gallery.css": "/oneragtime-test/static/media/granito.44cf3027.jpg",
     "static/media/Banner.css": "/oneragtime-test/static/media/logo-color.fb05bc36.png"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.c534a7ea.js",
     "static/css/2.d4b21097.chunk.css",
     "static/js/2.7861f72b.chunk.js",
-    "static/css/main.711165f6.chunk.css",
+    "static/css/main.4af1ef22.chunk.css",
     "static/js/main.8fb2a128.chunk.js"
   ]
 }
